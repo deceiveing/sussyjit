@@ -2,8 +2,8 @@ import os
 import random
 from core import cli
 
-# Made by: n0nuser
-## https://github.com/n0nuser/RubberSpark
+# Made by: deagle
+## https://github.com/deceiveing/sussyjit
 
 def filename(name):
   """
@@ -20,7 +20,7 @@ def banner():
   with open(file) as file:
     num = random.randint(91,96)
     print("\033[1;%dm" % (num) + file.read() + cli.N, end="")
-  print("   by n0nuser\n")
+  print("   by deagle\n")
   print("Tool to create various scripts for the Digispark!\nWrite \"\033[1mhelp\033[0m\" to list commands")
 
 def table(list):
